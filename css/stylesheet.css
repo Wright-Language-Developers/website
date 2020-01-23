@@ -1,0 +1,38 @@
+/*
+@import url(https://cdn.jsdelivr.net/gh/tonsky/FiraCode@1.207/distr/fira_code.css);
+*/
+
+code { font-family: 'Fira Code', monospace; }
+
+@supports (font-variation-settings: normal) {
+  code { font-family: 'Fira Code VF', monospace; }
+}
+
+body {
+    margin: 5%;
+    background-color: black;
+    color: white;
+}
+
+.h1 {
+    font-family: "Fira Code", bold;
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    object-fit: contain;
+    display: flex;
+    align-items: center;
+    width: 10vw;
+    height: auto;
+    padding: 0;
+}
+
+.sidebar {
+    text-align: center;
+}
+
+.main {
+    text-align: center;
+}
